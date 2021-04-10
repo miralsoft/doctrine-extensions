@@ -1,5 +1,5 @@
 {
-    "name": "webmasters/doctrine-extensions",
+    "name": "miralsoft/doctrine-extensions",
     "type": "library",
     "description": "Doctrine2 extensions",
     "keywords": [
@@ -9,17 +9,21 @@
         "bootstrap",
         "validators"
     ],
-    "homepage": "http://github.com/LeisureLarry/doctrine-extensions",
+    "homepage": "https://github.com/miralsoft/doctrine-extensions",
     "license": "MIT",
     "authors": [
         {
             "name": "Jan Teriete",
             "email": "leisure.larry@habmalnefrage.de"
+        },
+        {
+            "name": "Michael Tosch",
+            "email": "m.tosch@miralsoft.com"
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "doctrine/orm": ">=2.6.3,<2.7-dev"
+        "php": ">=8.0",
+        "doctrine/orm": ">=2.8.0,<2.9-dev"
     },
     "autoload": {
         "psr-0": { "Webmasters": "lib/" }
